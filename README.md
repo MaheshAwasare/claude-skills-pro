@@ -42,10 +42,10 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 4 | [`scaffold-fullstack-app`](skills/scaffold-fullstack-app) | ✅ |
 | 5 | [`scaffold-go-microservice`](skills/scaffold-go-microservice) | ✅ |
 | 6 | [`scaffold-cli-tool`](skills/scaffold-cli-tool) | ✅ |
-| 7 | [`terraform-patterns`](skills/terraform-patterns) | ⬜ |
-| 8 | [`kubernetes-helm`](skills/kubernetes-helm) | ⬜ |
-| 9 | [`github-actions-ci`](skills/github-actions-ci) | ⬜ |
-| 10 | [`opentelemetry-instrument`](skills/opentelemetry-instrument) | ⬜ |
+| 7 | [`terraform-patterns`](skills/terraform-patterns) | ✅ |
+| 8 | [`kubernetes-helm`](skills/kubernetes-helm) | ✅ |
+| 9 | [`github-actions-ci`](skills/github-actions-ci) | ✅ |
+| 10 | [`opentelemetry-instrument`](skills/opentelemetry-instrument) | ✅ |
 | 11 | [`stripe-integration`](skills/stripe-integration) | ⬜ |
 | 12 | [`clerk-auth`](skills/clerk-auth) | ⬜ |
 | 13 | [`supabase-backend`](skills/supabase-backend) | ⬜ |
