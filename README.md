@@ -36,12 +36,12 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 
 | # | Skill | Status |
 |---|---|---|
-| 1 | [`razorpay-integration`](skills/razorpay-integration) ⭐ | ⬜ |
-| 2 | [`brevo-email`](skills/brevo-email) ⭐ | ⬜ |
-| 3 | [`scaffold-saas-starter`](skills/scaffold-saas-starter) ⭐ | ⬜ |
-| 4 | [`scaffold-fullstack-app`](skills/scaffold-fullstack-app) | ⬜ |
-| 5 | [`scaffold-go-microservice`](skills/scaffold-go-microservice) | ⬜ |
-| 6 | [`scaffold-cli-tool`](skills/scaffold-cli-tool) | ⬜ |
+| 1 | [`razorpay-integration`](skills/razorpay-integration) ⭐ | ✅ |
+| 2 | [`brevo-email`](skills/brevo-email) ⭐ | ✅ |
+| 3 | [`scaffold-saas-starter`](skills/scaffold-saas-starter) ⭐ | ✅ |
+| 4 | [`scaffold-fullstack-app`](skills/scaffold-fullstack-app) | ✅ |
+| 5 | [`scaffold-go-microservice`](skills/scaffold-go-microservice) | ✅ |
+| 6 | [`scaffold-cli-tool`](skills/scaffold-cli-tool) | ✅ |
 | 7 | [`terraform-patterns`](skills/terraform-patterns) | ⬜ |
 | 8 | [`kubernetes-helm`](skills/kubernetes-helm) | ⬜ |
 | 9 | [`github-actions-ci`](skills/github-actions-ci) | ⬜ |
