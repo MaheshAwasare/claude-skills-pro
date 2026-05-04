@@ -63,15 +63,15 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 
 | # | Skill | Status |
 |---|---|---|
-| 23 | [`scaffold-new-app`](skills/scaffold-new-app) ⭐ | ⬜ |
+| 23 | [`scaffold-new-app`](skills/scaffold-new-app) ⭐ | ✅ |
 | 24 | [`find-real-bug`](skills/find-real-bug) ⭐ | ✅ |
 | 25 | [`shrink-this-pr`](skills/shrink-this-pr) | ✅ |
 | 26 | [`write-commit-message`](skills/write-commit-message) | ✅ |
-| 27 | [`explain-this-diff`](skills/explain-this-diff) | ⬜ |
-| 28 | [`triage-stack-trace`](skills/triage-stack-trace) | ⬜ |
-| 29 | [`audit-tautological-tests`](skills/audit-tautological-tests) | ⬜ |
+| 27 | [`explain-this-diff`](skills/explain-this-diff) | ✅ |
+| 28 | [`triage-stack-trace`](skills/triage-stack-trace) | ✅ |
+| 29 | [`audit-tautological-tests`](skills/audit-tautological-tests) | ✅ |
 | 30 | [`extract-skill-from-session`](skills/extract-skill-from-session) | ⬜ |
-| 31 | [`find-dead-code`](skills/find-dead-code) | ⬜ |
+| 31 | [`find-dead-code`](skills/find-dead-code) | ✅ |
 | 32 | [`write-runbook`](skills/write-runbook) | ⬜ |
 | 33 | [`write-adr`](skills/write-adr) | ⬜ |
 | 34 | [`plan-the-rollback`](skills/plan-the-rollback) | ✅ |
