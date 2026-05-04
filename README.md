@@ -95,10 +95,10 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 
 | # | Skill | Status |
 |---|---|---|
-| 45 | [`india-dpdp-act`](skills/india-dpdp-act) ⭐ | ⬜ |
-| 46 | [`gdpr-dpia`](skills/gdpr-dpia) | ⬜ |
-| 47 | [`hipaa-audit`](skills/hipaa-audit) | ⬜ |
-| 48 | [`soc2-evidence`](skills/soc2-evidence) | ⬜ |
+| 45 | [`india-dpdp-act`](skills/india-dpdp-act) ⭐ | ✅ |
+| 46 | [`gdpr-dpia`](skills/gdpr-dpia) | ✅ |
+| 47 | [`hipaa-audit`](skills/hipaa-audit) | ✅ |
+| 48 | [`soc2-evidence`](skills/soc2-evidence) | ✅ |
 | 49 | [`pci-dss-checklist`](skills/pci-dss-checklist) | ⬜ |
 | 50 | [`wcag-accessibility-audit`](skills/wcag-accessibility-audit) | ⬜ |
 | 51 | [`threat-modeling-stride`](skills/threat-modeling-stride) | ⬜ |
