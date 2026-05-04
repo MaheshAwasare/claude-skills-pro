@@ -1,6 +1,9 @@
 # claude-skills-pro
 
-> 50+ production-grade Claude Code skills covering the gaps Anthropic doesn't ship — Razorpay, Brevo, India-DPDP compliance, full-stack scaffolding, framework migrations, and the workflow meta-skills that change how Claude operates.
+> 51 production-grade Claude Code skills covering the gaps Anthropic doesn't ship — Razorpay, Brevo, India-DPDP compliance, full-stack scaffolding, framework migrations, and the workflow meta-skills that change how Claude operates.
+
+[![Status](https://img.shields.io/badge/skills-51%2F51-brightgreen)](#the-51-skills-roadmap)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 A curated, opinionated, MIT-licensed plugin for [Claude Code](https://claude.com/claude-code). Every skill is medium-depth (~150–250 lines) with concrete code examples, anti-patterns, and a "verify it worked" checklist — not a one-paragraph prompt wrapper.
 
@@ -99,9 +102,9 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 46 | [`gdpr-dpia`](skills/gdpr-dpia) | ✅ |
 | 47 | [`hipaa-audit`](skills/hipaa-audit) | ✅ |
 | 48 | [`soc2-evidence`](skills/soc2-evidence) | ✅ |
-| 49 | [`pci-dss-checklist`](skills/pci-dss-checklist) | ⬜ |
-| 50 | [`wcag-accessibility-audit`](skills/wcag-accessibility-audit) | ⬜ |
-| 51 | [`threat-modeling-stride`](skills/threat-modeling-stride) | ⬜ |
+| 49 | [`pci-dss-checklist`](skills/pci-dss-checklist) | ✅ |
+| 50 | [`wcag-accessibility-audit`](skills/wcag-accessibility-audit) | ✅ |
+| 51 | [`threat-modeling-stride`](skills/threat-modeling-stride) | ✅ |
 
 ## Skill format
 
