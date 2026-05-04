@@ -46,10 +46,10 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 8 | [`kubernetes-helm`](skills/kubernetes-helm) | ✅ |
 | 9 | [`github-actions-ci`](skills/github-actions-ci) | ✅ |
 | 10 | [`opentelemetry-instrument`](skills/opentelemetry-instrument) | ✅ |
-| 11 | [`stripe-integration`](skills/stripe-integration) | ⬜ |
-| 12 | [`clerk-auth`](skills/clerk-auth) | ⬜ |
-| 13 | [`supabase-backend`](skills/supabase-backend) | ⬜ |
-| 14 | [`sentry-monitoring`](skills/sentry-monitoring) | ⬜ |
+| 11 | [`stripe-integration`](skills/stripe-integration) | ✅ |
+| 12 | [`clerk-auth`](skills/clerk-auth) | ✅ |
+| 13 | [`supabase-backend`](skills/supabase-backend) | ✅ |
+| 14 | [`sentry-monitoring`](skills/sentry-monitoring) | ✅ |
 | 15 | [`dbt-data-modeling`](skills/dbt-data-modeling) | ⬜ |
 | 16 | [`graphql-relay`](skills/graphql-relay) | ⬜ |
 | 17 | [`grpc-services`](skills/grpc-services) | ⬜ |
