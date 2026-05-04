@@ -1,0 +1,28 @@
+{
+  "name": "claude-skills-pro",
+  "version": "0.1.0",
+  "description": "50+ production-grade Claude Code skills covering the gaps Anthropic doesn't ship — Razorpay, Brevo, India-DPDP compliance, full-stack scaffolding, framework migrations, and the workflow meta-skills that change how Claude operates.",
+  "author": {
+    "name": "Mahesh Awasare",
+    "url": "https://github.com/MaheshAwasare"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MaheshAwasare/claude-skills-pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaheshAwasare/claude-skills-pro.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "razorpay",
+    "brevo",
+    "saas",
+    "scaffolding",
+    "compliance",
+    "dpdp",
+    "migration"
+  ],
+  "skills": "./skills"
+}
