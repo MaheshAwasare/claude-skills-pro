@@ -54,10 +54,10 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 16 | [`graphql-relay`](skills/graphql-relay) | ✅ |
 | 17 | [`grpc-services`](skills/grpc-services) | ✅ |
 | 18 | [`bun-runtime`](skills/bun-runtime) | ✅ |
-| 19 | [`fastapi-production`](skills/fastapi-production) | ⬜ |
-| 20 | [`react-native-expo`](skills/react-native-expo) | ⬜ |
-| 21 | [`cloudflare-workers`](skills/cloudflare-workers) | ⬜ |
-| 22 | [`algolia-search`](skills/algolia-search) | ⬜ |
+| 19 | [`fastapi-production`](skills/fastapi-production) | ✅ |
+| 20 | [`react-native-expo`](skills/react-native-expo) | ✅ |
+| 21 | [`cloudflare-workers`](skills/cloudflare-workers) | ✅ |
+| 22 | [`algolia-search`](skills/algolia-search) | ✅ |
 
 ### Bucket A — Workflow / Meta (15)
 
