@@ -85,11 +85,11 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 |---|---|---|
 | 38 | [`nextjs-pages-to-app`](skills/nextjs-pages-to-app) | ✅ |
 | 39 | [`node-version-upgrade`](skills/node-version-upgrade) | ✅ |
-| 40 | [`java-8-to-21`](skills/java-8-to-21) | ⬜ |
+| 40 | [`java-8-to-21`](skills/java-8-to-21) | ✅ |
 | 41 | [`webpack-to-vite`](skills/webpack-to-vite) | ✅ |
 | 42 | [`jest-to-vitest`](skills/jest-to-vitest) | ✅ |
-| 43 | [`mongo-to-postgres`](skills/mongo-to-postgres) | ⬜ |
-| 44 | [`python-2-to-3`](skills/python-2-to-3) | ⬜ |
+| 43 | [`mongo-to-postgres`](skills/mongo-to-postgres) | ✅ |
+| 44 | [`python-2-to-3`](skills/python-2-to-3) | ✅ |
 
 ### Bucket C — Compliance / Regulated (7)
 
