@@ -50,10 +50,10 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 12 | [`clerk-auth`](skills/clerk-auth) | ✅ |
 | 13 | [`supabase-backend`](skills/supabase-backend) | ✅ |
 | 14 | [`sentry-monitoring`](skills/sentry-monitoring) | ✅ |
-| 15 | [`dbt-data-modeling`](skills/dbt-data-modeling) | ⬜ |
-| 16 | [`graphql-relay`](skills/graphql-relay) | ⬜ |
-| 17 | [`grpc-services`](skills/grpc-services) | ⬜ |
-| 18 | [`bun-runtime`](skills/bun-runtime) | ⬜ |
+| 15 | [`dbt-data-modeling`](skills/dbt-data-modeling) | ✅ |
+| 16 | [`graphql-relay`](skills/graphql-relay) | ✅ |
+| 17 | [`grpc-services`](skills/grpc-services) | ✅ |
+| 18 | [`bun-runtime`](skills/bun-runtime) | ✅ |
 | 19 | [`fastapi-production`](skills/fastapi-production) | ⬜ |
 | 20 | [`react-native-expo`](skills/react-native-expo) | ⬜ |
 | 21 | [`cloudflare-workers`](skills/cloudflare-workers) | ⬜ |
