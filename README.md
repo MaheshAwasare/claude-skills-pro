@@ -70,13 +70,13 @@ Status legend: ✅ shipped · 🚧 in progress · ⬜ planned · ⭐ signature s
 | 27 | [`explain-this-diff`](skills/explain-this-diff) | ✅ |
 | 28 | [`triage-stack-trace`](skills/triage-stack-trace) | ✅ |
 | 29 | [`audit-tautological-tests`](skills/audit-tautological-tests) | ✅ |
-| 30 | [`extract-skill-from-session`](skills/extract-skill-from-session) | ⬜ |
+| 30 | [`extract-skill-from-session`](skills/extract-skill-from-session) | ✅ |
 | 31 | [`find-dead-code`](skills/find-dead-code) | ✅ |
-| 32 | [`write-runbook`](skills/write-runbook) | ⬜ |
-| 33 | [`write-adr`](skills/write-adr) | ⬜ |
+| 32 | [`write-runbook`](skills/write-runbook) | ✅ |
+| 33 | [`write-adr`](skills/write-adr) | ✅ |
 | 34 | [`plan-the-rollback`](skills/plan-the-rollback) | ✅ |
-| 35 | [`spec-from-conversation`](skills/spec-from-conversation) | ⬜ |
-| 36 | [`blame-archaeology`](skills/blame-archaeology) | ⬜ |
+| 35 | [`spec-from-conversation`](skills/spec-from-conversation) | ✅ |
+| 36 | [`blame-archaeology`](skills/blame-archaeology) | ✅ |
 | 37 | [`write-pr-description`](skills/write-pr-description) | ✅ |
 
 ### Bucket D — Migration / Upgrade (7)
