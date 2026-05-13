@@ -7,6 +7,132 @@
 
 A curated, opinionated, MIT-licensed plugin for [Claude Code](https://claude.com/claude-code). Every skill is medium-depth (~150–250 lines) with concrete code examples, anti-patterns, and a "verify it worked" checklist — not a one-paragraph prompt wrapper.
 
+---
+
+## 🎬 See it in action
+
+> **Demo:** _Loom walkthrough coming soon — [Watch the 90-second tour →](https://github.com/MaheshAwasare/claude-skills-pro)_
+>
+> <!-- Replace with: [![Watch demo](docs/demo-thumbnail.png)](https://www.loom.com/share/YOUR_VIDEO_ID) -->
+
+A typical session, step by step:
+
+### 1. You ask Claude to do something real
+
+```
+You: scaffold a SaaS app for an Indian B2B audience
+     with billing, email, multi-tenancy
+```
+
+### 2. Claude loads the matching skills automatically
+
+```
+✓ scaffold-new-app          (decides the stack)
+✓ scaffold-saas-starter     (Next.js + Postgres RLS + Clerk)
+✓ razorpay-integration      (orders, subscriptions, webhooks)
+✓ brevo-email               (transactional + marketing)
+✓ india-dpdp-act            (consent, retention, breach plan)
+```
+
+### 3. You get production-shaped code, not a tutorial
+
+```
+my-saas/
+├── apps/web/                         ← Next.js 16 App Router
+│   ├── src/
+│   │   ├── app/[orgSlug]/...         ← multi-tenant routing
+│   │   ├── lib/rls.ts                ← withTenant() RLS helper
+│   │   └── lib/{razorpay,brevo}.ts   ← typed wrappers
+│   └── ...
+├── packages/db/
+│   ├── schema.ts                     ← every table has org_id
+│   └── migrations/0001_init.sql      ← RLS policies enabled
+├── .github/workflows/ci.yml          ← typecheck/lint/test/build
+└── docs/stack.md                     ← decision rationale
+```
+
+Each skill ships with **anti-patterns explained** and a **verification checklist** so the output isn't just code — it's defensible code.
+
+---
+
+## 🚀 60-second Quick Start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/MaheshAwasare/claude-skills-pro.git
+cd claude-skills-pro
+
+# 2. Symlink all skills into Claude Code's skills directory
+#    (macOS / Linux)
+mkdir -p ~/.claude/skills
+ln -s "$(pwd)/skills/"* ~/.claude/skills/
+
+#    (Windows PowerShell — run as admin OR enable Developer Mode)
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
+Get-ChildItem -Directory "$PWD\skills" | ForEach-Object {
+  New-Item -ItemType SymbolicLink `
+    -Path "$env:USERPROFILE\.claude\skills\$($_.Name)" `
+    -Target $_.FullName -Force
+}
+
+# 3. Restart Claude Code. Skills are auto-loaded.
+
+# 4. Try it
+claude "scaffold a saas starter for indian customers"
+```
+
+**Or install just one skill:**
+```bash
+ln -s "$(pwd)/skills/razorpay-integration" ~/.claude/skills/razorpay-integration
+```
+
+---
+
+## 🎯 Three skills that pay for the repo by themselves
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `razorpay-integration` ⭐
+**India payments, done right.**
+
+- Orders + subscriptions
+- Webhook signature verification
+- RBI e-mandate / UPI Autopay
+- Idempotency + state machine
+- Refunds (full + partial Optimum)
+
+</td>
+<td width="33%" valign="top">
+
+### `scaffold-saas-starter` ⭐
+**Multi-tenant Next.js in one shot.**
+
+- Postgres RLS for tenant isolation
+- Clerk Organizations
+- Razorpay or Stripe (you pick)
+- Brevo email + templates
+- OpenTelemetry from day 1
+
+</td>
+<td width="33%" valign="top">
+
+### `india-dpdp-act` ⭐
+**Compliance Anthropic doesn't ship.**
+
+- DPDP Act 2023 mapping
+- Consent log schema
+- Data principal rights endpoints
+- Cross-border transfer rules
+- Breach notification runbook
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Why this exists
 
 Anthropic's official skills cover the basics across most languages. This repo deliberately fills the gaps:
